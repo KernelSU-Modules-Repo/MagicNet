@@ -1,4 +1,4 @@
-# [MagicNet](https://github.com/LIghtJUNction/MagicNet)
+# [MagicNet](https://github.com/LIghtJUNction/MagicNet) <- - SourceCode
 
 ![image](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 
