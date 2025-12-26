@@ -1,3 +1,1 @@
-# [MagicNet](https://github.com/LIghtJUNction/MagicNet)
-
-
+MagicNet/README.md
