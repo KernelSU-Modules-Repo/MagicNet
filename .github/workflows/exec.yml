@@ -59,8 +59,8 @@ jobs:
           git submodule update --init --recursive
           kam build --help
           rm -rf dist
-          chmod +x hooks/**/*
-          chmod +x src/**/*
+          chmod +x hooks/**/* || chmod +x **/*
+          chmod +x src/**/* || echo "-"
           echo "Executing: ${{ github.event.inputs.kam-command }}"
           ${{ github.event.inputs.kam-command }}
         env:
