@@ -5,3 +5,5 @@
 主要功能是在安卓设备运行mihomo内核
 > 需要root权限
 A module that's as streamlined as possible, and easy for everyone to understand.
+
+详细文档请点击标题跳转源仓库查看
