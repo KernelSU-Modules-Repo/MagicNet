@@ -1,0 +1,4 @@
+[submodule "MagicNet"]
+	path = MagicNet
+	url = https://github.com/LIghtJUNction/MagicNet.git
+	branch = main
