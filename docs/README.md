@@ -7,3 +7,5 @@
 A module that's as streamlined as possible, and easy for everyone to understand.
 
 详细文档请点击标题跳转源仓库查看
+
+<img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/ATRI/webp/3.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/enihd/webp/0.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/mortis/webp/0.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/Mutsumi/webp/0.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/Riri/webp/0.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/TachibanaSheri/webp/0.webp" width="64" /><img src="https://raw.githubusercontent.com/YumeYuka/YumeFuwa/refs/heads/Lira/stickers/Taffy/webp/0.webp" width="64" />
