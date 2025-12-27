@@ -9,7 +9,7 @@ on:
         description: Command to run
         required: false
         type: string
-        default: cd MagicNet && kam version patch && kam build -a -s -r
+        default: cd MagicNet && kam build -a -s -r
 jobs:
   build:
     runs-on: ubuntu-latest
