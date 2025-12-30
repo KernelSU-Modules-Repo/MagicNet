@@ -1,6 +1,7 @@
 # [MagicNet](https://github.com/LIghtJUNction/MagicNet) <- - SourceCode
 
 ![image](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
+![Downloads](img.shields.io)
 
 主要功能是以tun模式在安卓设备运行mihomo,预配置,集成社区共建黑名单
 欢迎贡献
