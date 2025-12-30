@@ -2,15 +2,15 @@
 
 <h1> 🪄MagicNet </h1>
 
-[![LatestRelease](https:img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet/releases)
+[![LatestRelease](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet/releases)
 
-[![TotalDownloads](https:img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet)
+[![TotalDownloads](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 
-[![License](https:img.shields.io/github/license/KernelSU-Modules-Repo/MagicNet?label=License&color=orange&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet)
+[![License](https://img.shields.io/github/license/KernelSU-Modules-Repo/MagicNet?label=License&color=orange&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 
 <div>
 
-![image](https:github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
+![image](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 
 ###项目简介
 主要功能是以**TUN模式**在安卓设备运行**mihomo**，预配置集成社区共建黑名单。
