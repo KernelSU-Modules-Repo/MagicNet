@@ -2,21 +2,28 @@
 
 <h1>🪄 MagicNet </h1>
 
-[![Latest Release](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet/releases)
-[![TotalDownloads](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
-[![License](https://img.shields.io/github/license/KernelSU-Modules-Repo/MagicNet?label=License&color=orange&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
+[ ! [ LatestRelease ] ( https :   img .  shields .  io / github / downloads / KernelSU-Modules-Repo / MagicNet / latest / MagicNet . zip ? label = Downloads & logo = tailscale & color = 31C2F2 & style = flat-square ) ] ( https :   github .  com / KernelSU-Modules-Repo / MagicNet / releases )
+[ ! [ TotalDownloads ] ( https :   img .  shields .  io / github / downloads / KernelSU-Modules-Repo / MagicNet / total ? label = Total % 20 Downloads & logo = github & color = blue & style = flat-square ) ] ( https :   github .  com / KernelSU-Modules-Repo / MagicNet )
+[ ! [ License ] ( https :   img .  shields .  io / github / license / KernelSU-Modules-Repo / MagicNet ? label = License & color = orange & style = flat-square ) ] ( https :   github .  com / KernelSU-Modules-Repo / MagicNet )
 
-</div>
+<  div >
 
-![image](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
+! [ image ] ( https :   github .  com / user-attachments / assets / f46c5c92-27df-4edd-851d-cae77ebd8540 )
 
+### 项目简介
+主要功能是以 **TUN 模式** 在安卓设备运行 **mihomo**，预配置集成社区共建黑名单。
+欢迎贡献代码或提交规则！
 
-主要功能是以tun模式在安卓设备运行mihomo,预配置,集成社区共建黑名单
-欢迎贡献
-> 需要root权限
-A module that's as streamlined as possible, and easy for everyone to understand.
+> ⚠️ **注意**：本模块需要 **Root 权限** (KernelSU / APatch / Magisk)
 
-详细文档请点击标题跳转源仓库查看
+### 核心理念
+*A module that's as streamlined as possible, and easy for everyone to understand.*
+
+### 快速开始
+详细文档与使用说明请点击上方 **标题** 或 **下载标签** 跳转至源仓库查看。
+
+---
+*Generated for 2025 MagicNet Community*
 
 <details>
 <summary>⚠️警告/Warning/不要点开我/Don't expand!⚠️</summary>
