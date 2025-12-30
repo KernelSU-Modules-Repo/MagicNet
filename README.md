@@ -1,9 +1,11 @@
-<divalign="center">
+<div align="center">
 
-<h1>🪄MagicNet</h1>
+<h1> 🪄MagicNet </h1>
 
 [![LatestRelease](https:img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet/releases)
+
 [![TotalDownloads](https:img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet)
+
 [![License](https:img.shields.io/github/license/KernelSU-Modules-Repo/MagicNet?label=License&color=orange&style=flat-square)](https:github.com/KernelSU-Modules-Repo/MagicNet)
 
 <div>
