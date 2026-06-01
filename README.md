@@ -33,5 +33,5 @@
 详细文档与使用说明请点击上方**标题**或**下载标签**跳转至源仓库查看。
 
 ---
-*Generatedfor2025MagicNetCommunity*
+*Generatedfor2026MgicNetCommunity*
 
