@@ -1,0 +1,65 @@
+name: Mirror upstream release
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      UPSTREAM_REPO: LIghtJUNction/MagicNet
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest upstream release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh api "repos/${UPSTREAM_REPO}/releases/latest" > release.json
+          jq -r '.tag_name' release.json > tag.txt
+          jq -r '.name // .tag_name' release.json > title.txt
+          jq -r '.body // ""' release.json > release-notes.md
+
+          mkdir -p upstream-release
+          jq -r '.assets[] | @base64' release.json | while read -r asset; do
+            name="$(printf '%s' "${asset}" | base64 -d | jq -r '.name')"
+            url="$(printf '%s' "${asset}" | base64 -d | jq -r '.url')"
+            gh api \
+              -H "Accept: application/octet-stream" \
+              "${url}" > "upstream-release/${name}"
+          done
+
+      - name: Publish unchanged release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          tag="$(cat tag.txt)"
+          title="$(cat title.txt)"
+
+          if gh release view "${tag}" >/dev/null 2>&1; then
+            gh release delete "${tag}" --yes --cleanup-tag
+          fi
+
+          shopt -s nullglob
+          assets=(upstream-release/*)
+
+          if [ "${#assets[@]}" -eq 0 ]; then
+            gh release create "${tag}" \
+              --title "${title}" \
+              --notes-file release-notes.md \
+              --latest
+          else
+            gh release create "${tag}" "${assets[@]}" \
+              --title "${title}" \
+              --notes-file release-notes.md \
+              --latest
+          fi
