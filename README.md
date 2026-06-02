@@ -45,9 +45,11 @@ https://github.com/LIghtJUNction/MagicNet
 npx skills add MemDeco-WG/Kam # -g ：全局，如果你下载了bun，可以用bunx
 ```
 
-本项目由kam模块构建的模范项目
-使用kam构建模块非常简单
+本项目是
+kam模块构建的模范项目
 本仓库由kam 初始化
+使用kam构建模块非常简单
+
 ```bash
 kam init . --repo-mode reference
 # 意思是只放一个同步用的工作流和module.json
