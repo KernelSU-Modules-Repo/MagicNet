@@ -8,8 +8,6 @@
 ![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 </div>
 
-
-
 ## 项目简介
 
 MagicNet 是一个纯粹的透明代理，旨在让你和你的软件忘记/不知道你开启了代理。
@@ -38,3 +36,24 @@ minimax/文心/豆包/以及任何网页版/手机版对话AI生成的代码
 
 详细文档、源码与问题反馈请访问源仓库：
 https://github.com/LIghtJUNction/MagicNet
+
+## 标准化模块开发工具
+
+[kam](https://github.com/MemDeco-WG/Kam)
+人生苦短，安装这个技能让ai帮你学
+```bash
+npx skills add MemDeco-WG/Kam # -g ：全局，如果你下载了bun，可以用bunx
+```
+
+本项目由kam模块构建的模范项目
+使用kam构建模块非常简单
+本仓库由kam 初始化
+```bash
+kam init . --repo-mode reference
+# 意思是只放一个同步用的工作流和module.json
+```
+本体仓库：
+```bash
+kam init . --repo-mode full
+# 完整的项目模板
+```
