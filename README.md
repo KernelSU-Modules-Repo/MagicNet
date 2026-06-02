@@ -54,6 +54,6 @@ kam init . --repo-mode reference
 ```
 本体仓库：
 ```bash
-kam init . --repo-mode full
-# 完整的项目模板
+kam init -i  # --repo-mode full 这是默认的
+# 给人类设计的交互式新建命令
 ```
