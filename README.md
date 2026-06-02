@@ -10,21 +10,7 @@
 
 ![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 
-<<<<<<< HEAD
-### 项目简介
-主要功能是以**TUN模式**在安卓设备运行**mihomo**，预配置集成社区共建黑名单。
-欢迎贡献代码或提交规则！（仅mihomo内核）
-
-亮点：
-**开箱即用** 
-**支持singbox/mihomo**
-**真*透明代理，开热点化身魔法热点**
-**并且支持和其他vpn软件共存**
-**低内存占用**
-**开机自启动**
-=======
 ## 项目简介
->>>>>>> 8850eca (module.json)
 
 MagicNet 是一个面向 Android Root 设备的透明代理模块，主要通过 TUN 模式运行 mihomo，并内置社区共建规则，尽量减少手动配置成本。
 
@@ -32,12 +18,7 @@ MagicNet 是一个面向 Android Root 设备的透明代理模块，主要通过
 
 > 注意：本模块需要 Root 权限。
 
-<<<<<<< HEAD
----
-*Generatedfor2026MgicNetCommunity*
-=======
 ## 核心理念
->>>>>>> 8850eca (module.json)
 
 保持模块尽可能精简、可理解、可维护，同时让普通用户也能快速获得可用的透明代理体验。
 
