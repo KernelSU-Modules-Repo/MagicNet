@@ -1,13 +1,11 @@
 <div align="center">
-
-<h1>MagicNet</h1>
-
 [![LatestRelease](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet/releases)
 [![TotalDownloads](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 [![License](https://img.shields.io/github/license/LIghtJUNction/MagicNet?label=License&color=orange&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 ![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 </div>
 
+# MagicNet
 ## 项目简介
 
 MagicNet 是一个纯粹的透明代理，旨在让你和你的软件忘记/不知道你开启了代理。
