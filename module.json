@@ -1,0 +1,11 @@
+{
+  "additionalAuthors": [
+    {
+      "name": "LIghtJUNction",
+      "type": "add"
+    }
+  ],
+  "metamodule": false,
+  "sourceUrl": "https://github.com/LIghtJUNction/MagicNet",
+  "summary": "Android Root 透明代理模块，通过 TUN 模式运行 mihomo，并内置社区共建规则。"
+}
