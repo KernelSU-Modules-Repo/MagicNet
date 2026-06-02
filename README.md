@@ -5,27 +5,36 @@
 [![LatestRelease](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet/releases)
 [![TotalDownloads](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 [![License](https://img.shields.io/github/license/KernelSU-Modules-Repo/MagicNet?label=License&color=orange&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
-
+![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 </div>
 
-![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
+
 
 ## 项目简介
 
-MagicNet 是一个面向 Android Root 设备的透明代理模块，主要通过 TUN 模式运行 mihomo，并内置社区共建规则，尽量减少手动配置成本。
-
-模块适用于 KernelSU、APatch、Magisk 等 Root 环境。安装后可在设备侧接管网络流量，并按规则处理代理、直连与黑名单路由。
-
-> 注意：本模块需要 Root 权限。
+MagicNet 是一个纯粹的透明代理，旨在让你和你的软件忘记/不知道你开启了代理。
+为了实现以上目标：
+1. 精准分流
+2. 低内存占用（只有singbox能办到）
+3. 开机自启动
+4. 开启热点自动共享魔法
+5. 和其他vpn软件共存
 
 ## 核心理念
 
 保持模块尽可能精简、可理解、可维护，同时让普通用户也能快速获得可用的透明代理体验。
+最简单，可用的版本（不到50行，请翻历史，最开始最简陋的版本是我人工编写的）
+
+## 人工智能使用声明
+
+我大半年没更新了，因为我懒，多亏了gpt5.5，不然这项目可能得等到年底才会更新。
+我欢迎贡献代码，但是禁止使用以下模型（或者你声明你人工检查过）：
+minimax/文心/豆包/以及任何网页版/手机版对话AI生成的代码
+其余不受限制
 
 ## 快速开始
 
 请从 Release 页面下载最新 `MagicNet.zip`，在 KernelSU、APatch 或 Magisk 中安装并重启设备。
 
 详细文档、源码与问题反馈请访问源仓库：
-
 https://github.com/LIghtJUNction/MagicNet
