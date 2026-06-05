@@ -47,20 +47,19 @@ jobs:
 
           if gh release view "${tag}" >/dev/null 2>&1; then
             echo "Release ${tag} already exists; skipping publish."
-            exit 0
-          fi
-
-          shopt -s nullglob
-          assets=(upstream-release/*)
-
-          if [ "${#assets[@]}" -eq 0 ]; then
-            gh release create "${tag}" \
-              --title "${title}" \
-              --notes-file release-notes.md \
-              --latest
           else
-            gh release create "${tag}" "${assets[@]}" \
-              --title "${title}" \
-              --notes-file release-notes.md \
-              --latest
+            shopt -s nullglob
+            assets=(upstream-release/*)
+
+            if [ "${#assets[@]}" -eq 0 ]; then
+              gh release create "${tag}" \
+                --title "${title}" \
+                --notes-file release-notes.md \
+                --latest
+            else
+              gh release create "${tag}" "${assets[@]}" \
+                --title "${title}" \
+                --notes-file release-notes.md \
+                --latest
+            fi
           fi
