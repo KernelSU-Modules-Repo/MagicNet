@@ -46,7 +46,8 @@ jobs:
           title="$(cat title.txt)"
 
           if gh release view "${tag}" >/dev/null 2>&1; then
-            gh release delete "${tag}" --yes --cleanup-tag
+            echo "Release ${tag} already exists; skipping publish."
+            exit 0
           fi
 
           shopt -s nullglob
