@@ -46,20 +46,20 @@ jobs:
           title="$(cat title.txt)"
 
           if gh release view "${tag}" >/dev/null 2>&1; then
-            gh release delete "${tag}" --yes --cleanup-tag
-          fi
-
-          shopt -s nullglob
-          assets=(upstream-release/*)
-
-          if [ "${#assets[@]}" -eq 0 ]; then
-            gh release create "${tag}" \
-              --title "${title}" \
-              --notes-file release-notes.md \
-              --latest
+            echo "Release ${tag} already exists; skipping publish."
           else
-            gh release create "${tag}" "${assets[@]}" \
-              --title "${title}" \
-              --notes-file release-notes.md \
-              --latest
+            shopt -s nullglob
+            assets=(upstream-release/*)
+
+            if [ "${#assets[@]}" -eq 0 ]; then
+              gh release create "${tag}" \
+                --title "${title}" \
+                --notes-file release-notes.md \
+                --latest
+            else
+              gh release create "${tag}" "${assets[@]}" \
+                --title "${title}" \
+                --notes-file release-notes.md \
+                --latest
+            fi
           fi
