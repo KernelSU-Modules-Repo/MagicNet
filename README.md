@@ -1,12 +1,44 @@
 <div align="center">
-  
+
 [![LatestRelease](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/latest/MagicNet.zip?label=Downloads&logo=tailscale&color=31C2F2&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet/releases)
 [![TotalDownloads](https://img.shields.io/github/downloads/KernelSU-Modules-Repo/MagicNet/total?label=Total%20Downloads&logo=github&color=blue&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
 [![License](https://img.shields.io/github/license/LIghtJUNction/MagicNet?label=License&color=orange&style=flat-square)](https://github.com/KernelSU-Modules-Repo/MagicNet)
+[![Source](https://img.shields.io/badge/source-LIghtJUNction%2FMagicNet-8b5cf6?style=flat-square&logo=github)](https://github.com/LIghtJUNction/MagicNet)
+[![Root](https://img.shields.io/badge/root-KernelSU%20%7C%20APatch%20%7C%20Magisk-31c2f2?style=flat-square)](#基本使用流程)
+
 ![MagicNet](https://github.com/user-attachments/assets/f46c5c92-27df-4edd-851d-cae77ebd8540)
 </div>
 
 # MagicNet
+
+<p align="center">
+  <a href="#项目简介">项目简介</a>
+  · <a href="#快速开始">快速开始</a>
+  · <a href="#功能介绍">功能介绍</a>
+  · <a href="#release-仓库说明">Release 仓库说明</a>
+  · <a href="#english-summary">English</a>
+</p>
+
+## Release 仓库说明
+
+这是 `MagicNet` 的 KernelSU Modules Repo 分发仓库，主要用于发布 `MagicNet.zip`、展示下载入口和同步模块元数据。
+
+完整源码、开发文档、问题反馈和构建说明在源仓库维护：
+
+- https://github.com/LIghtJUNction/MagicNet
+
+## English Summary
+
+MagicNet is a rooted Android transparent proxy module. It uses system-level routing so apps can use proxy rules without manually configuring each app.
+
+| Area | Details |
+| --- | --- |
+| Distribution | Download `MagicNet.zip` from this repository's Releases page. |
+| Source | Main source repository: `LIghtJUNction/MagicNet`. |
+| Root managers | KernelSU, APatch, and Magisk. |
+| Traffic model | TUN routing, rule split, DNS handling, hotspot sharing, and VPN coexistence. |
+| Diagnostics | Optional MCP server for AI-assisted troubleshooting. |
+
 ## 项目简介
 
 MagicNet 是一个纯粹的透明代理，旨在让你和你的软件忘记/不知道你开启了代理。
