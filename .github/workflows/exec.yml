@@ -45,6 +45,12 @@ jobs:
           tag="$(cat tag.txt)"
           title="$(cat title.txt)"
 
+          create_release() {
+            if ! gh release create "$@"; then
+              echo "Release ${tag} could not be published; treating this mirror run as non-blocking."
+            fi
+          }
+
           if gh release view "${tag}" >/dev/null 2>&1; then
             echo "Release ${tag} already exists; skipping publish."
           else
@@ -52,12 +58,12 @@ jobs:
             assets=(upstream-release/*)
 
             if [ "${#assets[@]}" -eq 0 ]; then
-              gh release create "${tag}" \
+              create_release "${tag}" \
                 --title "${title}" \
                 --notes-file release-notes.md \
                 --latest
             else
-              gh release create "${tag}" "${assets[@]}" \
+              create_release "${tag}" "${assets[@]}" \
                 --title "${title}" \
                 --notes-file release-notes.md \
                 --latest
