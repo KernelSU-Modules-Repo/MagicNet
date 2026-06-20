@@ -7,5 +7,5 @@
   ],
   "metamodule": false,
   "sourceUrl": "https://github.com/LIghtJUNction/MagicNet",
-  "summary": "Experimental Android root module for eBPF-based kernel-level transparent proxying. See the main MagicNet repository for full documentation."
+  "summary": "Android root traffic-governance module with magicnet0 TUN, sing-box/mihomo management, WebUI, CLI, MCP diagnostics, hotspot handling, VPN coexistence helpers, and eBPF detection with TUN fallback."
 }
