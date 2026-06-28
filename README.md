@@ -26,10 +26,10 @@ kam install LIghtJUNction/MagicNet
 MagicNet 当前主线包括：
 
 - `magicnet0` TUN 透明流量治理
-- sing-box / mihomo 配置与运行管理
+- sing-box / ~~mihomo~~ 配置与运行管理
 - WebUI、CLI 和 MCP 诊断入口
 - 分应用规则、热点共享处理、VPN 共存辅助
-- eBPF 路径检测与可用时启用，TUN 作为稳定兜底
+- TUN 作为稳定兜底，其他模式正在探索中
 
 更完整的使用方式以主仓库文档为准。
 
