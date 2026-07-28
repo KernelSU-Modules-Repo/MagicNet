@@ -1,5 +1,7 @@
 # MagicNet
 
+> 这只是发布仓库，不含源代码
+
 MagicNet 是一个 Android root 网络治理模块，用于在设备侧统一接管和管理流量。
 
 本仓库只是 KernelSU Modules Repo 分发镜像，不维护完整文档和源码。功能说明、更新日志、问题反馈和开发记录请看主仓库：
